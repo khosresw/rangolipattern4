@@ -9,6 +9,23 @@
 <body>
   <canvas id="ritualCanvas" width="600" height="600"></canvas>
   <div id="feedback"></div>
+  <div id="instructions">
+  <h2>🌀 How to Complete the Corner Squares</h2>
+  <p>
+    Trace lines between dots to form four square glyphs—one in each corner of the grid.
+    Each square must connect four adjacent dots in a clockwise loop:
+  </p>
+  <ul>
+    <li>Northwest: (0,0) → (0,1) → (1,1) → (1,0)</li>
+    <li>Northeast: (3,0) → (3,1) → (4,1) → (4,0)</li>
+    <li>Southwest: (0,3) → (0,4) → (1,4) → (1,3)</li>
+    <li>Southeast: (3,3) → (3,4) → (4,4) → (4,3)</li>
+  </ul>
+  <p>
+    Once all four squares are complete, the spell activates and the diamond glyph is revealed.
+    Click between dots to draw lines. Press <strong>R</strong> to reset the ritual.
+  </p>
+</div>
   <script src="script.js"></script>
 </body>
 </html>
