@@ -15,3 +15,23 @@ body {
   font-size: 18px;
   color: #fff;
 }
+#instructions {
+  margin: 20px auto;
+  width: 500px;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#instructions h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+#instructions ul {
+  padding-left: 20px;
+}
